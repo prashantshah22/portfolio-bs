@@ -1,0 +1,87 @@
+.main-font {
+    font-family: "Fredoka", serif;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+.logo {
+    border: 2px solid #323232;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.navdesign {
+    box-shadow: 0 8px 10px 0 #928c8c !important;
+}
+
+#home {
+    margin-top: 4px;
+}
+
+#home h1 {
+    font-family: "Fredoka", serif;
+}
+
+.service {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 50%;
+    font-size: 30px !important;
+    padding-top: 8px;
+}
+
+.fa {
+    font-size: 40px !important;
+}
+
+.top-menu .nav-link.active {
+    box-shadow: 0 0 5px rgb(52, 49, 49);
+    border-bottom: 3px solid black;
+
+}
+
+#ui-datepicker-div {
+    z-index: 9998 !important;
+    width: fit-content;
+}
+
+.ui-datepicker-header {
+    background-color: red;
+    color: white;
+}
+
+.ui-datepicker-calendar {
+    background-color: green;
+}
+
+.ui-datepicker-calendar a.ui-state-default {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.ui-datepicker-calendar th {
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+}
+
+.modal input:focus,
+.modal select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:768px) {
+    #home p {
+        text-align: justify;
+    }
+}
