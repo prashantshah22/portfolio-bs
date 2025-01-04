@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $(".navbar ul li a").click((e) => {
+    $(".website-scroll ul li a").click((e) => {
         e.preventDefault();
         var href = e.target.hash;
         $("html").animate({

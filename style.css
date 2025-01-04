@@ -35,8 +35,11 @@
     padding-top: 8px;
 }
 
-.fa {
+.fa-login{
     font-size: 40px !important;
+}
+.fa-signup{
+    font-size: 1rem !important;
 }
 
 .top-menu .nav-link.active {
